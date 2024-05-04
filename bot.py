@@ -12,7 +12,7 @@ from pystyle import Write, Colors
 with open('config.json', 'r') as f:
     config = json.load(f)
 
-token = config.get('token', 'MISSING')
+token = os.environ.get('token')
 redirect_uri = config.get('redirect_uri', 'http://127.0.0.1:8000')
 client_secret = config.get('client_secret', 'MISSING')
 client_id = config.get('client_id', 0)
