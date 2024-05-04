@@ -1,0 +1,21 @@
+{
+    "token": "MTIzNjM3NjUyMzY3MDI5MDUzNQ.GelJCv.rgdwbdgUQuAGiP9E36SqY5KGLPZ_qd8TJ7azqA",
+    "client_id": "1236376523670290535",
+    "client_secret": "GZKaYcVq7ioPJW6ij_4aM28szhTDD8go",
+    "redirect_uri": "https://verify.roc4et.de/",
+    "scope": "identify%20guilds.join",
+
+    "admin_guilds": [1191879775954935869],
+    "owners": [1186342290323677215],
+    "log_channel": 1236377010624925852,
+
+    "server_host": "0.0.0.0",
+    "server_port": 4200,
+
+    "verify_guilds": {
+        "1191879775954935869": 1213515146593304636
+    },
+
+    "server_logging": true,
+    "available-scopes": "Available scopes: identify guilds guilds.join email. Separate scopes using %20"
+}
